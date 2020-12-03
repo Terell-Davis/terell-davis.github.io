@@ -1,15 +1,16 @@
 header{
     background: #920e0e;
     background-size: auto;
-    color: white;
+    color: #f9f9f9;
     text-align: center;
     padding: 20px;
 }
 
 body{
-    background-color: #404040;
-    margin: 0%;
+    background-color: #920e0e;
+    margin: auto;
 }
+
 .navbar{
     overflow: hidden;
     background-color: black;
@@ -19,7 +20,7 @@ body{
 .navbar a{
     float: left;
     font-size: 16px;
-    color: #aaa;
+    color: #f9f9f9;
     text-align: center; 
     padding: 14px 16px;
     text-decoration: none;
@@ -32,14 +33,14 @@ body{
     cursor: pointer;
     font-size: 16px;
     border: none;
-    color: #aaa;
+    color: #f9f9f9;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 }
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus{
-    background-color: red;
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: #920e0e;
 }
 .dropcontent{
     display: none;
@@ -54,41 +55,51 @@ body{
     float: none;
     color: black;
     padding: 12px 16px;
-    text-decoration: none;
+    text-decoration: underline;
     display: block;
     text-align: center;
 }
 
 .dropcontent a:hover{
-    background-color: #ddd;
+    background-color: #f9f9f9;
 }
 
-.show{
+.dropdown:hover .dropcontent{
     display: block;
 }
 
-hr{
-    overflow: hidden;
+.card{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background:#410a0a ;
 }
 
-h1{
-    color:white;
-    width: 90%;
+hr{
+    color: #ddd;
+}
+
+.subjects{
+    color:#f9f9f9;
+    width: 85%;
+    text-decoration: underline;
     margin: auto;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .info{
-    color: aqua;
-    width: 85%;
-    margin: auto;
+    color: #f9f9f9;
+    width: 90%;
+    margin-top: 6px;
+    margin-left: 28px;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 0.3in;
 }
 
 #footer{
-    background: #920e0e;
-    color: white;
+    background: black;
+    color: #f9f9f9;
     text-align: center;
     padding: 20px; 
     margin-top: auto;
