@@ -1,5 +1,5 @@
-function dropdown(){
-    document.getElementById("mydropdown").classList.toggle("show");
+function dropdown(target){
+    target.parentNode.querySelector('.dropcontent').classList.toggle("show");
 }
 
 window.onclick = function(e){
