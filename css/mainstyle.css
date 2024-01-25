@@ -40,7 +40,7 @@ body{
     margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn{
-    background-color: #0a3d62;
+    background-color: #04263e;
 }
 .dropcontent{
     display: none;
@@ -66,13 +66,6 @@ body{
 
 .dropdown:hover .dropcontent{
     display: block;
-}
-
-.card{
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    background:#410a0a ;
 }
 
 hr{
@@ -106,13 +99,13 @@ hr{
 }
 
 .card {
-    background-color: #333333;  /* Dark Grey background for the card */
-    color: #f9f9f9;             /* Off-white text color */
-    border-radius: 10px;        /* Rounded corners for the card */
-    padding: 20px;              /* Padding inside the card */
-    /*margin: 20px 0;             /* Margin around the card */
+    background-color: #333333;
+    color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;              
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  /* Adding a subtle shadow for depth */
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
 }
