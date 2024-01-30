@@ -68,6 +68,22 @@ body{
     display: block;
 }
 
+#theme-switch{
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: #f9f9f9;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+#theme-switch:hover{
+    background-color: #04263e;
+}
+
 hr{
     color: #ddd;
 }
@@ -108,4 +124,31 @@ hr{
     margin-right: 2%;
     margin-bottom: 2%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+}
+
+.light-theme {
+    background-color: #f9f9f9;
+    color: white;
+}
+
+.light-theme .card{
+    background-color: #dadada;
+    color: #333333;
+}
+
+.light-theme .info{
+    color: #333333;
+}
+
+.light-theme .subjects{
+    color: #333333;
+}
+
+
+.purple-theme{
+    background-color: #6a1b9a;
+    color: #f9f9f9;
+}
+.purple-theme .card{
+    background-color: #9c27b0;
 }
