@@ -33,9 +33,8 @@
   .simpatico-theme {
     --primary-color: #1a2238;
     --secondary-color: #ff6a3d;
-    --text-color: #f9f9f9;
-    --card-color: #cfb451; /* #9daaf2;*/
-    --hover-color:#9daaf2; /* You can choose an appropriate hover color */;
+    --text-color: #e4e4e4;
+    --hover-color:#9daaf2;
   }
 
 header{
