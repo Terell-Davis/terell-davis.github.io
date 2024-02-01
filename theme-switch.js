@@ -1,13 +1,18 @@
-document.getElementById('theme-switch').addEventListener('click', function() {
-    var body = document.body;
-    if (body.classList.contains('dark-theme')) {
-        body.classList.remove('dark-theme');
-        body.classList.add('light-theme');
-    } else if (body.classList.contains('light-theme')) {
-        body.classList.remove('light-theme');
-        body.classList.add('purple-theme');
-    } else {
-        body.classList.remove('purple-theme');
-        body.classList.add('dark-theme');
+document.addEventListener('DOMContentLoaded', function() {
+    function changeTheme(event) {
+      event.preventDefault();
+
+      var selectedTheme = event.target.getAttribute('data-theme');
+
+      document.body.classList.remove('default', 'light-theme', 'purple-theme', 'armour-theme','simpatico-theme');
+
+      if (selectedTheme) {
+        document.body.classList.add(selectedTheme);
+      }
     }
+
+    var themeOptions = document.querySelectorAll('#theme-menu a');
+    themeOptions.forEach(function(option) {
+      option.addEventListener('click', changeTheme);
+    });
 });
