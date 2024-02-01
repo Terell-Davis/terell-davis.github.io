@@ -2,28 +2,41 @@
 <html>
 	<link rel="stylesheet" href="/css/mainstyle.css">
 	<head>
-		<title>HTML/CSS</title>
+		<title>Web Development</title>
 	</head>
 	<body>
 		<header>
-			<h1>HTML/CSS</h1>
+			<h1>Web Development</h1>
 		</header>
 
 		<div class="navbar">
 			<a href="/index.html">Home</a>
+
 			<div class="dropdown">
 				<button class="dropbtn" target="_blank">Projects</button>
 				<div class="dropcontent">
 					<a href="/projects/java.html">Java</a>
-                    <a href="/projects/python.html">Python</a>
-                    <a href="/projects/webdev.html">HTML/CSS</a>
+					<a href="/projects/python.html">Python</a>
+					<a href="/projects/webdev.html">HTML/CSS</a>
 				</div>
 			</div>
+
+			<div class="dropdown theme-switch-drop">
+				<button class="dropbtn" id="theme-switch">Change Theme</button>
+					<div class="dropcontent" id="theme-menu">
+				  		<a href="#" data-theme="default">Default</a>
+				  		<a href="#" data-theme="light-theme">Light Theme</a>
+				  		<a href="#" data-theme="purple-theme">Purple Theme</a>
+				  		<a href="#" data-theme="armour-theme">Armour Theme</a>
+						<a href="#" data-theme="simpatico-theme">Simpatico Theme</a>
+					</div>
+			</div>		  
 		</div>
 
 		<div class="card">
 			<hr>
-			<h1 class="subjects">terell-davis.github.io</h1>
+
+			<h1 class="subjects">Place Holder</h1>
 			<div class="info">
 				<p title="Bio" class="info">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -34,10 +47,13 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
             </div>
+
 			<hr>
 		</div>
 		<footer id="footer">
-			<p>Copyright &copy; My Starting Website</p>
+			<p>Copyright &copy; I dont know what to put here yet</p>
 		</footer>
+
+		<script src="/theme-switch.js"></script>
 	</body>
 </html>
