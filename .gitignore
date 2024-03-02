@@ -1,3 +1,2 @@
-projects/oldjava.html
-projects/oldpython.html
-projects/oldwebdev.html
+.DS_Store
+node_modules
