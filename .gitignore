@@ -1,3 +1,11 @@
-projects/oldjava.html
-projects/oldpython.html
-projects/oldwebdev.html
+.DS_Store
+.vscode/
+
+node_modules
+
+.env
+/build
+
+.cache/
+
+/coverage
