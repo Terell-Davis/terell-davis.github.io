@@ -1,0 +1,44 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+:root {
+  /* Default theme */
+  --primary-color: #0a3d62;
+  --secondary-color: #416fa5;
+  --text-color: #f9f9f9;
+  --card-color: #333;
+  --hover-color: #04263e;
+  }
+  .light-theme {
+    --primary-color: #787878;
+    --secondary-color: #87ceeb;
+    --text-color: #333333;
+    --card-color: #ffffff;
+    --hover-color: #add8e6;
+    ;
+  }
+  
+  .purple-theme {
+    --primary-color: #9c27b0;
+    --secondary-color: #ce93d8;
+    --text-color: #f2f2f2;
+    --card-color: #7b1fa2;
+    --hover-color: #6a1b9a;
+  }
+  
+  .armour-theme {
+    --primary-color: #5ac3b0;
+    --secondary-color: #f7cd46;
+    --text-color: #de5935;
+    --card-color: white;
+    --hover-color: #de5935;
+  }
+  
+  .simpatico-theme {
+    --primary-color: #1a2238;
+    --secondary-color: #ff6a3d;
+    --text-color: #e4e4e4;
+    --hover-color: #9daaf2;
+  }

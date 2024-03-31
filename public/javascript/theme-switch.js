@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+  var savedTheme = localStorage.getItem('selectedTheme');
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
     function changeTheme(event) {
       event.preventDefault();
 
@@ -8,6 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (selectedTheme) {
         document.body.classList.add(selectedTheme);
+        localStorage.setItem('selectedTheme', selectedTheme);
+
       }
     }
 

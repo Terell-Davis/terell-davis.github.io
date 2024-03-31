@@ -1,0 +1,8 @@
+.home {
+  background: var(--secondary-color);
+}
+.mainContainer {
+  background: var(--primary-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

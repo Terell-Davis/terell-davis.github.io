@@ -1,0 +1,18 @@
+.card {
+	background-color: var(--card-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardTitle {
+  color: var(--text-color);
+}
+
+.cardContent {
+  color: var(--text-color);
+}

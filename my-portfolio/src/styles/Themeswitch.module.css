@@ -1,0 +1,48 @@
+.themeSwitch {
+  position: relative; /* Set position relative for absolute positioning of dropdown */
+  display: inline-block; /* Make the container inline for proper alignment */
+}
+
+.dropbtn {
+  background-color: var(--secondary-color); /* Button color */
+  color: var(--text-color); /* text color */
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold; /* If you want the text to be bold */
+  border-radius: 5px; /* If you want rounded corners */
+}
+
+.dropdownContent {
+  display: none; /* Hidden by default */
+  position: absolute;
+  right: 0; /* Align to the right edge of .themeSwitch */
+  background-color: var(--secondary-color); /* Use CSS variable for dropdown background */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; /* Ensure it's above other items */
+}
+
+.dropdownContent button {
+  color: var(--text-color); /* text color */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  background: none;
+  text-align: left;
+  width: 100%; /* Make the buttons expand the full width of the dropdown */
+  cursor: pointer;
+}
+
+.dropdownContent button:hover {
+  background-color: var(--hover-color); /* Use CSS variable for hover background */
+}
+
+.themeSwitch:hover .dropdownContent {
+  display: block; /* Show the dropdown on hover */
+}
+
+.themeSwitch:hover .dropbtn {
+  background-color: var(--hover-color); /* Use CSS variable for button hover */
+}
