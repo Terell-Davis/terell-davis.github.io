@@ -15,4 +15,9 @@
 
 .cardContent {
   color: var(--text-color);
+  font-size: medium;
+}
+
+.indent {
+  padding-left: 20px;
 }

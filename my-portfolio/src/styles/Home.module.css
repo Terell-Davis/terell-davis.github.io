@@ -1,8 +1,12 @@
-.home {
+.homePage {
   background: var(--secondary-color);
+  display: flex; 
+  flex-direction: column;
 }
+
 .mainContainer {
   background: var(--primary-color);
   padding-top: 20px;
   padding-bottom: 20px;
+  flex-grow: 1;
 }

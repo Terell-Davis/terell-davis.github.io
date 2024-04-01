@@ -1,6 +1,6 @@
 .themeSwitch {
-  position: relative; /* Set position relative for absolute positioning of dropdown */
-  display: inline-block; /* Make the container inline for proper alignment */
+  position: relative;
+  display: inline-block;
 }
 
 .dropbtn {
@@ -9,8 +9,6 @@
   padding: 16px;
   border: none;
   cursor: pointer;
-  font-weight: bold; /* If you want the text to be bold */
-  border-radius: 5px; /* If you want rounded corners */
 }
 
 .dropdownContent {
@@ -44,5 +42,5 @@
 }
 
 .themeSwitch:hover .dropbtn {
-  background-color: var(--hover-color); /* Use CSS variable for button hover */
+  background-color: var(--hover-color);
 }

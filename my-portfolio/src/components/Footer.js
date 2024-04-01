@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.content}>
         © {new Date().getFullYear()} Terell Bernard Davis. All rights reserved.
-        {/* Add more footer content here as needed */}
       </div>
     </footer>
   );
