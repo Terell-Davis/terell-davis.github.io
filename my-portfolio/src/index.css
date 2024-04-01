@@ -49,3 +49,45 @@ html, body, #root {
     --text-color: #e4e4e4;
     --hover-color: #9daaf2;
   }
+
+  .sonic-theme {
+    --primary-color: #1f75fe;
+    --secondary-color: #ffd700;
+    --text-color: #ffffff;
+    --card-color: #87ceeb;
+    --hover-color: #0057b8;
+  }
+
+  .tails-theme {
+    --primary-color: #e67e22;
+    --secondary-color: #ffffff;
+    --text-color: #333333;
+    --card-color: #ffeb3b;
+    --hover-color: #d35400;
+  }
+
+  .knuckles-theme {
+    --primary-color: #c0392b;
+    --secondary-color: #95a5a6;
+    --text-color: #ffffff; 
+    --card-color: #e74c3c;
+    --hover-color: #e84118;
+  }
+
+  .shadow-theme {
+    --primary-color: #000000;
+    --secondary-color: #e84118;
+    --text-color: #bdc3c7;
+    --card-color: #2c3e50;
+    --hover-color: #992d22;
+  }
+
+  .eggman-theme {
+    --primary-color: #e74c3c;
+    --secondary-color: #f1c40f;
+    --text-color: #34495e;
+    --card-color: #bdc3c7;
+    --hover-color: #c0392b;
+  }
+  
+  
