@@ -1,15 +1,12 @@
-// src/components/Header.js
-
 import React from 'react';
 import styles from '../styles/Header.module.css';
 
-function Header() {
+const Header = ({ title }) => {
   return (
     <header className={styles.header}>
-      <h1>Terell B. Davis</h1>
-      {/* Add additional elements here if needed, like a logo */}
+      <h1>{title}</h1>
     </header>
   );
-}
+};
 
 export default Header;
