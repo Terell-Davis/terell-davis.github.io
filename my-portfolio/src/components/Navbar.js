@@ -7,8 +7,8 @@ const NavBar = () => {
   return (
     <div className={styles.navbar}>
       <a href="/" className={styles.link}>Home</a>
-      {/* Add more links as needed */}
-	  <ThemeSwitch /> {/* Add the theme switch component */}
+	  <a href="/inspirobot" className={styles.link}>InspiroBot</a>
+	  <ThemeSwitch />
     </div>
   );
 };
