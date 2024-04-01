@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTheme } from '../contexts/Themecontext';
 import styles from '../styles/Themeswitch.module.css';
 
-const themes = ['default', 'light']; //, 'dark', 'purple', 'armour', 'simpatico'];
-
 const ThemeSwitch = () => {
   const { changeTheme } = useTheme();
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
 
   return (
     <div className={styles.themeSwitch}>
-      <button className={styles.dropbtn}>Change Theme</button>
-      <div className={styles.dropdownContent}>
-		<button onClick={() => changeTheme('default')}>Default</button>
-        <button onClick={() => changeTheme('light')}>Light</button>
-       
-      </div>
+      <button onClick={toggleDropdown} className={styles.dropbtn}>Change Theme</button>
+      {dropdownOpen && (
+        <div className={styles.dropdownContent}>
+          <button onClick={() => changeTheme('default-theme')}>Default</button>
+          <button onClick={() => changeTheme('light-theme')}>Light</button>
+		  <button onClick={() => changeTheme('purple-theme')}>Purple</button>
+		  <button onClick={() => changeTheme('armour-theme')}>Armour</button>
+		  <button onClick={() => changeTheme('simpatico-theme')}>Simpatico</button>
+        </div>
+      )}
     </div>
   );
 };

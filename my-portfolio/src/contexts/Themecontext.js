@@ -1,15 +1,21 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const ThemeContext = createContext();
 
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('default'); // 'default' can be replaced with any theme you start with
+  const storedTheme = localStorage.getItem('theme') || 'default-theme';
+  const [theme, setTheme] = useState(storedTheme);
+  
+  useEffect(() => {
+    document.body.className = storedTheme; // Apply stored theme immediately on load
+  }, [storedTheme]);
 
   const changeTheme = (newTheme) => {
     setTheme(newTheme);
-    document.body.className = newTheme; // This assumes you are using the body's class to style themes
+    localStorage.setItem('theme', newTheme); // Save new theme to local storage
+    document.body.className = newTheme;
   };
 
   return (
