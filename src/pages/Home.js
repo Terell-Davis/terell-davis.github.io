@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
-import NavBar from '../components/Navbar';
-import ContentCard from '../components/Contentcard';
+import NavBar from '../components/NavBar';
+import ContentCard from '../components/ContentCard';
 import styles from '../styles/Home.module.css';
 
 
 const Home = () => {
   return (
     <div className={styles.homePage}>
-		<Header title="Home" />
+		<Header title="Terell B. Davis" />
 		<NavBar />
 		
 		<div className={styles.mainContainer}>

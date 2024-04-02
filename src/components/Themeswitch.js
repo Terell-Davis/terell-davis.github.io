@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useTheme } from '../contexts/Themecontext';
-import styles from '../styles/Themeswitch.module.css';
+import { useTheme } from '../contexts/ThemeContext';
+import styles from '../styles/ThemeSwitch.module.css';
 
 const ThemeSwitch = () => {
   const { changeTheme } = useTheme();

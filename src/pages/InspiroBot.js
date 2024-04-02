@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import styles from '../styles/InspiroBot.module.css';
 import Header from '../components/Header';
-import NavBar from '../components/Navbar';
-import ContentCard from '../components/Contentcard';
+import NavBar from '../components/NavBar';
+import ContentCard from '../components/ContentCard';
 
 const InspiroBot = () => {
   const [imageUrl, setImageUrl] = useState('');

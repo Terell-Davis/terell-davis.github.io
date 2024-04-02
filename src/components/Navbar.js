@@ -1,14 +1,17 @@
 import React from 'react';
-import styles from '../styles/Navbar.module.css';
-import ThemeSwitch from './Themeswitch'; 
+import styles from '../styles/NavBar.module.css';
+import ThemeSwitch from './ThemeSwitch'; 
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <div className={styles.navbar}>
-      <a href="/" className={styles.link}>Home</a>
-	    <a href="/inspirobot" className={styles.link}>InspiroBot</a>
+    <nav className={styles.navbar}>
+      <Link to="/" className={styles.link}>Home</Link>
+	    <Link to="/projects" className={styles.link}>Projects</Link>
+      <Link to="/inspirobot" className={styles.link}>InspiroBot</Link>
+      <Link to="/contact" className={styles.link}>Contact</Link>
 	    <ThemeSwitch />
-    </div>
+    </nav>
   );
 };
 
