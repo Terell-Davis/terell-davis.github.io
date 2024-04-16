@@ -21,3 +21,18 @@
 .indent {
   padding-left: 20px;
 }
+
+.headerWithImage, .header, .headerCentered {
+  display: flex;
+  align-items: center;
+}
+
+.headerCentered {
+  justify-content: center;
+}
+
+.cardImage {
+  width: 50px;
+  height: 50px;
+  order: 2;
+}

@@ -10,3 +10,48 @@
   padding-bottom: 20px;
   flex-grow: 1;
 }
+
+.aboutSection {
+  display: flex;
+  align-items: flex-start;
+}
+
+.me {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.me img {
+  max-width: 100%;
+  max-height: 200px;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.textContent {
+  flex: 1 1 auto;
+}
+
+.iconList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+}
+
+.iconList li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.iconList li:last-child {
+  margin-right: 0;
+}
+
+.iconList img {
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+}
