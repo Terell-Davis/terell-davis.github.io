@@ -24,9 +24,10 @@
 .me img {
   max-width: 100%;
   max-height: 200px;
-  display: block;
   width: auto;
   height: auto;
+  display: block;
+  padding-top: 25px;
 }
 
 .textContent {
