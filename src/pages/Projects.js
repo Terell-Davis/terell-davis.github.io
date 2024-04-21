@@ -6,7 +6,7 @@ import ContentCard from '../components/ContentCard';
 
 const Projects = () => {
     return (
-      <div className={styles.contactPage}>
+      <div className={styles.projectPage}>
           <Header title="Projects" />
           <NavBar />
           
