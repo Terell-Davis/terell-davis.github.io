@@ -47,3 +47,10 @@ In the project directory, you can run:
 - Deployment is handled through `gh-pages`. Make sure to configure your repository settings on GitHub to serve the website from the `gh-pages` branch or the `build` folder in the main branch.
 
 For more information on React, check out the [React documentation](https://reactjs.org/).
+
+## Pulling the Docker Image
+
+This project is available as a Docker image. You can pull the latest version of the image from Docker Hub using the following command:
+
+```bash
+docker pull terellbdavis/terell-davis.github.io:latest
