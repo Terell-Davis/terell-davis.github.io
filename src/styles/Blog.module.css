@@ -1,0 +1,31 @@
+  .blogPage {
+    background: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+  }
+  .mainContainer {
+    background: var(--primary-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-grow: 1;
+  }
+  .blogImageContent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .blogImage {
+    max-width: 600px;
+    max-height: 600px;
+    margin-right: 20px;
+    align-self: flex-start;
+  }
+
+  .textContent {
+    flex-grow: 1;
+    text-align: justify;
+    padding: 0 1em;
+    justify-content: center;
+  }
+
